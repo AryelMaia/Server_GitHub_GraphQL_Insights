@@ -29,6 +29,7 @@ OBS: Assim que gerar copie e guarde, ele desaparece depois
 
 8. Executar o comando npm start
 9. Executar um GET na Rota http://localhost:3000/insight
+
 10.Retorno será um Json com três objetos, sendo o login e quantidade de quem mais realizou Commits, o login e quantidade de quem mais adicionou linhas e o login e quantidade de quem mais removeu linhas
 desde do período de início de leitura (Por esse motivo é interessante ter uma data próxima, tem muito commits nesse projeto e pode demorar para carregar).
 
