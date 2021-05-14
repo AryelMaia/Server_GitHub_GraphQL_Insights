@@ -16,7 +16,7 @@ Passo-a-passo
 
 1 - Executar o comando NPM Install no repositório
 
-2 - Por Default o Server Roda na Porta 3000, pode ser trocado index.JS Linha 23 no primeiro Parâmetro de "app.listen" 
+2 - Por Default o Server Roda na Porta 3001, pode ser trocado index.JS Linha 23 no primeiro Parâmetro de "app.listen" 
 
 3 - Por Default o MySQL na Porta 3307, pode ser trocado em conexao.js Linha 6
 
@@ -24,7 +24,7 @@ Passo-a-passo
 
 5 - Criar database: 'sigalei_db'
 
-6 - Substituir o accessToken com o seu Token Personalizado em models/conexao.js linha. Você pode obter acessando o Link abaixo:
+6 - Substituir o accessToken com o seu Token Personalizado em models/dados_abertos.js linha. Você pode obter acessando o Link abaixo:
 
 => https://github.com/settings/tokens
 => Site de suporte: https://medium.com/vlgunarathne/introduction-to-github-graphql-api-423ebbab75f9
@@ -35,7 +35,7 @@ OBS: Assim que gerar copie e guarde, ele desaparece depois
 
 8. Executar o comando npm start
 
-9. Executar um GET na Rota http://localhost:3000/insight
+9. Executar um GET na Rota http://localhost:3001/insight
 
 10.Retorno será um Json com três objetos, sendo o login e quantidade de quem mais realizou Commits, o login e quantidade de quem mais adicionou linhas e o login e quantidade de quem mais removeu linhas
 desde do período de início de leitura (Por esse motivo é interessante ter uma data próxima, tem muito commits nesse projeto e pode demorar para carregar).
