@@ -31,7 +31,7 @@ Passo-a-passo
 
 OBS: Assim que gerar copie e guarde, ele desaparece depois
 
-7. Opcional: Você pode alterar a data de início da leitura da Leitura dos Commits da API GitHub GraphQL, mas não recomendo. Demora para carregar se for uma data distante.
+7. Opcional: Você pode alterar a data de início da leitura da Leitura dos Commits da API GitHub GraphQL em './models/dados_abertos.js' Linha 10, mas não recomendo. Demora para carregar se for uma data distante.
 
 8. Executar o comando npm start
 
